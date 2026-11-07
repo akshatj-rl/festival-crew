@@ -1,0 +1,21 @@
+{
+  "city": "Agra",
+  "country": "India",
+  "currency": "INR",
+  "symbol": "₹",
+  "prices_as_of": "2026-11 (verify before a real trip)",
+  "transit": {
+    "single": 80,
+    "day_pass": null,
+    "pass_note": "One cab for the day (₹1,200 for Taj + Fort + Mehtab Bagh) beats three auto-hops"
+  },
+  "free_day_rules": [
+    "Taj Mahal: CLOSED every Monday — the crew places it on a non-Monday, always"
+  ],
+  "places": [
+    {"name": "Taj Mahal", "lat": 27.1751, "lng": 78.0421, "cost": 50, "hours": "06:00–17:00, closed Mon", "tags": ["icon", "unesco", "world-heritage"], "free_rule": "closed Mondays — place on Tue–Sun"},
+    {"name": "Agra Fort", "lat": 27.1795, "lng": 78.0085, "cost": 40, "hours": "06:00–17:00", "tags": ["unesco"]},
+    {"name": "Mehtab Bagh (Taj at sunset)", "lat": 27.1824, "lng": 78.0431, "cost": 30, "hours": "06:00–18:00, closed Sun", "tags": ["view"]},
+    {"name": "Petha + butter chicken stop", "lat": 27.1765, "lng": 78.0080, "cost": 300, "hours": "anytime", "tags": ["food"]}
+  ]
+}

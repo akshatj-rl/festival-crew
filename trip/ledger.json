@@ -1,0 +1,22 @@
+{
+  "trip": "festival-six",
+  "total": 60000,
+  "currency": "INR",
+  "items": [
+    {"label": "Day 1 Delhi — Diwali food (street + dinner)", "amount": -900},
+    {"label": "Day 1 Delhi — Chandni Chowk walk", "amount": -150},
+    {"label": "Day 1 Delhi — cabs (lights + Akshardham)", "amount": -200},
+    {"label": "Day 2 Delhi — Humayun's Tomb (2)", "amount": -80},
+    {"label": "Day 2 Delhi — Qutub Minar (2)", "amount": -100},
+    {"label": "Day 1–2 Delhi — metro", "amount": -180},
+    {"label": "Day 3 Delhi -> Agra, train 07:00 (2)", "amount": -700},
+    {"label": "Day 3 Agra — Taj + Agra Fort (2)", "amount": -180},
+    {"label": "Day 3 Agra — petha + butter chicken", "amount": -300},
+    {"label": "Day 3 Agra — day cab", "amount": -1200},
+    {"label": "Day 4 Agra -> Jaipur, Vande Bharat (2)", "amount": -1200},
+    {"label": "Day 4 Jaipur — Amber Fort (2)", "amount": -300},
+    {"label": "Day 1–4 food allowance", "amount": -9270},
+    {"label": "Day 4 Jaipur — e-rickshaws", "amount": -200},
+    {"label": "Day 1–4 local transit (Jaipur so far)", "amount": -500}
+  ]
+}

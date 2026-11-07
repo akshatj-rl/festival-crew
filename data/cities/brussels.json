@@ -1,0 +1,25 @@
+{
+  "city": "Brussels",
+  "country": "Belgium",
+  "currency": "EUR",
+  "prices_as_of": "2025-10 (verify before a real trip)",
+  "transit": {
+    "single": 3.6,
+    "day_pass": 10.75,
+    "pass_note": "24h card (De Lijn/STIB zones). For a 2-ride day, singles win."
+  },
+  "free_day_rules": [
+    "Royal Museums of Fine Arts: free first Sunday of the month"
+  ],
+  "places": [
+    {"name": "Grand Place", "lat": 50.8464, "lng": 4.3517, "cost": 0, "hours": "anytime", "tags": ["icon", "free"]},
+    {"name": "Atomium", "lat": 50.9037, "lng": 4.4277, "cost": 20.5, "hours": "10:00-18:00, closed Sun-Mon", "tags": ["icon"]},
+    {"name": "Manneken Pis", "lat": 50.8461, "lng": 4.3511, "cost": 0, "hours": "anytime", "tags": ["icon", "free"]},
+    {"name": "Royal Museums of Fine Arts", "lat": 50.8444, "lng": 4.3535, "cost": 12.5, "hours": "10:00-18:00, closed Mon", "tags": ["museum"], "free_rule": "first Sunday of the month"},
+    {"name": "Galeries royales Saint-Hubert", "lat": 50.8477, "lng": 4.3524, "cost": 0, "hours": "10:00-19:00", "tags": ["walk", "free", "shopping"]},
+    {"name": "Waffle stop (Gentleman of Waffles)", "lat": 50.8456, "lng": 4.3528, "cost": 8, "hours": "11:00-19:00", "tags": ["food"]}
+  ],
+  "day_trips": [
+    {"name": "Bruges", "from": "Brussels", "train_min": 60, "train_cost": 25.9, "note": "canal city, 2h in town is enough"}
+  ]
+}

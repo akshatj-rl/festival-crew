@@ -1,0 +1,52 @@
+{
+  "name": "run1",
+  "title": "Run 1 — the macro plan (Diwali → wedding → home)",
+  "steps": [
+    {"t": 0.4, "kind": "msg", "who": "human", "text": "@planner plan the trip from the brief"},
+    {"t": 1.8, "kind": "msg", "who": "trip-planner", "text": "Macro plan — 6 days, 2 travelers, ₹60,000 excl. hotels & gifts:\nD1–D2 Delhi (Diwali + monuments) · D3 Agra (Taj) · D4–D6 Jaipur (wedding)\nTrains: Delhi→Agra 07:00 (₹350) · Agra→Jaipur 10:40 (₹600)\nHotels: 2 Delhi (near Connaught) · 1 Agra (near Taj) · 3 Jaipur (wedding week — see the card)\nClosures handled: Taj closed Mon → Agra on Tuesday. Humayun's closed Mon → Sunday. One decision needs you: the Agra detour — card below."},
+    {"t": 1.6, "kind": "card", "who": "trip-planner", "card": "detour",
+     "data": {"from": "Delhi", "to": "Jaipur", "detour": "Agra",
+       "extra_time": "45 min off the NH48 you were driving anyway (direct Delhi→Jaipur: 5h 30m by road)",
+       "extra_cost": "≈ ₹0 extra travel — Taj entry ₹50 + 1 Agra night inside the hotel block",
+       "why": "The Taj Mahal is on the way. It costs you 3 hours, not a day."}},
+    {"t": 1.8, "kind": "msg", "who": "trip-planner", "text": "Itinerary document updated. The wedding is the fixed point of the whole trip — everything else bends around the sangeet at 19:00 on the 12th. @booker, check the Jaipur wedding-week hotel and the Anne… I mean, the book-ahead items for the next 14 days."},
+    {"t": 1.6, "kind": "card", "who": "deal-finder", "card": "compare",
+     "data": {"title": "Agra → Jaipur, Day 4",
+       "subtitle": "the crew ran the numbers (2 travelers)",
+       "currency": "₹",
+       "options": [
+         {"name": "Vande Bharat 10:40", "time": "5h 15m", "cost": "₹1,200", "verdict": "arrive 16:00", "pick": true},
+         {"name": "Cab (NH48)", "time": "5h 30m", "cost": "₹5,600", "verdict": "door to door, 4h more money"},
+         {"name": "Bus (SRS/RedAir)", "time": "6h 30m", "cost": "₹1,400", "verdict": "only if the train is full"}]},
+     "text": ""},
+    {"t": 1.4, "kind": "msg", "who": "deal-finder", "text": "Train it is — ₹4,400 cheaper than the cab and you land in time for Amber Fort at 17:00. Festive note: Jaipur hotel week of the 12th is +40% (wedding season). The deal is the flat Diwali rate the hotel runs — card from @booker next."},
+    {"t": 1.6, "kind": "card", "who": "social-finder", "card": "finds",
+     "data": {"agent": "social-finder",
+       "title": "Jaipur, from 19 reels this month",
+       "subtitle": "transcribed, deduped, sorted by 'go before the tour groups'",
+       "items": [
+         {"source": "reel", "place": "Hawa Mahal at 9:05, right at opening", "why": "12 reels: empty street at 9, bus groups at 11"},
+         {"source": "reel", "place": "Pyaz ni Matki at Laxmi Mishthan Bhandar", "why": "70-year-old shop, the dish 4 reels this month call 'the real one'"},
+         {"source": "reel", "place": "Nahargarh gate, 19:30 — city lights on", "why": "the one view every wedding-coverage reel ends on"}]}},
+    {"t": 1.4, "kind": "msg", "who": "social-finder", "text": "Three finds, each backed by 3+ reels. All map to coordinates in the city data — @day can route them."},
+    {"t": 1.8, "kind": "msg", "who": "local-guide", "text": "From the city's own calendar: Diwali Mela & light shows at Ram Niwas Bagh run this festival week (free entry, verify dates with the venue). Also: City Palace has a Diwali evening light-up — worth 20 minutes on Day 5 before the sangeet."},
+    {"t": 1.8, "kind": "msg", "who": "booking-agent", "text": "The one expensive decision in this trip: the Jaipur hotel. Wedding-week rate vs the flat Diwali rate — the card: this is the only booking I need your 'approve' for."},
+    {"t": 1.4, "kind": "decision", "who": "booking-agent", "card": "approval",
+     "data": {"from": "booking-agent",
+       "what": "Jaipur hotel, 3 nights (11–14 Nov), wedding week",
+       "lines": ["flat Diwali rate ₹14,500/night vs wedding-week ₹20,300 — saves ₹17,400",
+                 "10 min from the wedding venue; free cancellation until 72h before",
+                 "book-ahead: this rate disappears when the hotel's wedding block fills"],
+       "delta": "+₹43,500 (hotels are outside the ₹60k, but your call is logged)"},
+     "on_approve": [
+       {"t": 1.2, "kind": "msg", "who": "booking-agent", "text": "Approved. Booked: ref JPR-1114DIW-221, 3 nights, Diwali flat rate, free cancellation to 72h. Written to the bookings document. @money, log the rate delta we saved."},
+       {"t": 0.8, "kind": "book", "text": "Jaipur hotel, 3 nights, Diwali flat rate — ref JPR-1114DIW-221 (saved ₹17,400 vs wedding-week rate)"},
+       {"t": 1.0, "kind": "card", "who": "budget-keeper", "card": "budget", "render_from_ledger": true},
+       {"t": 1.0, "kind": "msg", "who": "budget-keeper", "text": "Trip ledger: ₹15,460 of ₹60,000 — 26% used, 3 days left. On track. The hotel saving is logged as a note, not a line — it never touched this budget."},
+       {"t": 1.2, "kind": "msg", "who": "trip-butler", "text": "Logged and on the clock. I'll ping you 24h before the sangeet, 2h before every train, and 40 min before timed entries. Anything else, just name me."}
+     ],
+     "on_deny": [
+       {"t": 1.2, "kind": "msg", "who": "booking-agent", "text": "Denied — I'll hold the room without booking (the hotel keeps it 48h, no charge). Fallback: the sister property 15 min from the venue at the normal rate. Decision logged; ledger untouched."}
+     ]}
+  ]
+}

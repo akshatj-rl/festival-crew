@@ -1,0 +1,30 @@
+{
+  "name": "run2",
+  "title": "Run 2 — on the go (Jaipur, sangeet in 4 hours)",
+  "steps": [
+    {"t": 0.4, "kind": "msg", "who": "human", "voice": true, "text": "just finished Amber Fort, sangeet is at 7 — what do I do with the afternoon?"},
+    {"t": 1.5, "kind": "msg", "who": "trip-butler", "text": "On it, two lines: Jantar Mantar is 10 min away and open till 17:00, then Johari Bazaar for the Diwali gifts before the sangeet. Day Planner is routing."},
+    {"t": 1.8, "kind": "card", "who": "day-planner", "card": "day-plan",
+     "data": {"agent": "day-planner", "day": 5, "date": "Thu 12 Nov 2026 · re-plan", "city": "Jaipur",
+       "currency": "₹",
+       "note": "re-planned from the Amber Fort gate — sangeet 19:00",
+       "stops": [
+         {"time": "15:30", "name": "Jantar Mantar", "note": "closed Mondays — today is fine", "cost": 50},
+         {"time": "16:30", "name": "City Palace (Diwali light-up)", "note": "20 minutes is enough", "cost": 300},
+         {"time": "17:30", "name": "Johari Bazaar", "note": "the Diwali gifts — the crew's last job before the wedding", "cost": 0},
+         {"time": "19:00", "name": "Sangeet, at the venue", "note": "10 min walk from the hotel", "cost": 0}],
+       "legs": [
+         {"mode": "e-rickshaw", "min": 10, "cost": 60},
+         {"mode": "e-rickshaw", "min": 8, "cost": 60},
+         {"mode": "e-rickshaw", "min": 6, "cost": 40}],
+       "map_points": [
+         {"lat": 26.9247, "lng": 75.8246, "name": "Jantar Mantar"},
+         {"lat": 26.9258, "lng": 75.8236, "name": "City Palace"},
+         {"lat": 26.9183, "lng": 75.8274, "name": "Johari Bazaar"},
+         {"lat": 26.9120, "lng": 75.8200, "name": "Venue"}]}},
+    {"t": 1.4, "kind": "msg", "who": "day-planner", "text": "One direction, no backtracking. Afternoon line: ₹450 (tickets + 3 e-rickshaws). If you're running late: drop the City Palace, keep Johari — the gifts cannot move."},
+    {"t": 1.6, "kind": "nudge", "who": "trip-butler", "now": "15:00",
+     "plan_file": "app/data/live-jaipur.json"},
+    {"t": 1.2, "kind": "msg", "who": "trip-butler", "text": "That's the afternoon. I'll ping you 40 minutes before the sangeet and 2 hours before tomorrow's train out. I don't nag — one ping, then I'm quiet."}
+  ]
+}

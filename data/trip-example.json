@@ -1,0 +1,17 @@
+{
+  "trip": "paris-amsterdam",
+  "brief": "Paris -> Brussels -> Amsterdam, 5 days (arrive Sun 3 Jan 2027, fly out Thu 7 Jan). Two travelers, one room. Budget 900 EUR all-in for food + tickets + local transport + the two train legs; hotels separate. Style: walkable days, museums before 11, one food stop per day, nothing booked the night before we land.",
+  "days": [
+    {"day": 1, "date": "2027-01-03", "city": "Paris", "note": "first Sunday of the month - national museums free until 14:00"},
+    {"day": 2, "date": "2027-01-04", "city": "Paris", "note": "evening train to Brussels"},
+    {"day": 3, "date": "2027-01-05", "city": "Brussels", "note": "day in the capital, evening train to Amsterdam"},
+    {"day": 4, "date": "2027-01-06", "city": "Amsterdam", "note": "museums + canals"},
+    {"day": 5, "date": "2027-01-07", "city": "Amsterdam", "note": "half day, fly out 18:05"}
+  ],
+  "detour": {
+    "from": "Paris", "to": "Amsterdam", "detour": "Brussels",
+    "direct": "direct TGV 2h 35m, 38-60 EUR",
+    "via": "Paris->Brussels 1h 22m + Brussels->Amsterdam 1h 57m, same two-leg price",
+    "reason": "one full evening + half a day for a city you were passing anyway"
+  }
+}

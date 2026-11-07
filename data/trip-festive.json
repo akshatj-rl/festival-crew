@@ -1,0 +1,18 @@
+{
+  "trip": "festival-six",
+  "brief": "Delhi -> Agra -> Jaipur, 6 days (land Sun 8 Nov, Diwali morning; fly out Sat 14 Nov, 18:40). Two travelers. Budget 60,000 INR for food + tickets + local transport + the two train legs; hotels separate, gifts separate (this crew does not count gifts). Cousin's wedding in Jaipur on Fri 13 Nov, sangeet Thu 12 Nov evening. Style: one big free-icon per day, street food counts as a stop, nobody stands in a queue for more than 20 minutes.",
+  "days": [
+    {"day": 1, "date": "2026-11-08", "city": "Delhi", "note": "DIWALI day — India Gate lights + Akshardham evening show"},
+    {"day": 2, "date": "2026-11-09", "city": "Delhi", "note": "Monday: Humayun's Tomb closed, Qutub closed Wed - placement handled"},
+    {"day": 3, "date": "2026-11-10", "city": "Agra", "note": "Taj in the morning (closed Mondays, so Tuesday it is)"},
+    {"day": 4, "date": "2026-11-11", "city": "Jaipur", "note": "Agra -> Jaipur 10:40 train (5h 15m), forts by late afternoon"},
+    {"day": 5, "date": "2026-11-12", "city": "Jaipur", "note": "sangeet 19:00 - gifts must be done by 16:00"},
+    {"day": 6, "date": "2026-11-13", "city": "Jaipur", "note": "the wedding, fly out 18:40"}
+  ],
+  "detour": {
+    "from": "Delhi", "to": "Jaipur", "detour": "Agra",
+    "direct": "Delhi -> Jaipur direct 4h (train) or 5h 30m (NH48)",
+    "via": "Delhi -> Agra 1h 30m + Agra -> Jaipur 5h 15m — Agra is 45 min off the NH48 you would drive anyway",
+    "reason": "the Taj Mahal is on the way. It costs 3 hours, not a day."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "city": "Jaipur",
+  "country": "India",
+  "currency": "INR",
+  "symbol": "₹",
+  "prices_as_of": "2026-11 (verify before a real trip)",
+  "transit": {
+    "single": 40,
+    "day_pass": null,
+    "pass_note": "E-rickshaw ₹40–80 per hop; one prepaid cab (₹1,500/day) for a heavy day"
+  },
+  "free_day_rules": [
+    "Jantar Mantar: closed Mondays",
+    "November–January is wedding season: hotels run 30–50% above normal — book the wedding-week night EARLY"
+  ],
+  "places": [
+    {"name": "Amber Fort", "lat": 26.9855, "lng": 75.8513, "cost": 150, "hours": "08:00–17:00", "tags": ["icon", "unesco"]},
+    {"name": "Hawa Mahal", "lat": 26.9239, "lng": 75.8267, "cost": 50, "hours": "09:00–17:00", "tags": ["icon"]},
+    {"name": "Jantar Mantar", "lat": 26.9247, "lng": 75.8246, "cost": 50, "hours": "09:00–17:00, closed Mon", "tags": ["unesco", "museum"]},
+    {"name": "City Palace", "lat": 26.9258, "lng": 75.8236, "cost": 300, "hours": "09:30–17:00", "tags": ["icon"]},
+    {"name": "Nahargarh at dusk", "lat": 26.8941, "lng": 75.8157, "cost": 50, "hours": "09:00–20:00 (last entry 19:00)", "tags": ["view"]},
+    {"name": "Johari Bazaar (Diwali gifts)", "lat": 26.9183, "lng": 75.8274, "cost": 0, "hours": "10:00–20:00", "tags": ["shopping", "free-walk", "diwali-gifts"]}
+  ],
+  "events": [
+    {"name": "Diwali Mela & light shows, Ram Niwas Bagh", "dates": "runs through the first week of Nov (verify this year's dates)", "cost": 0, "note": "the city's own festival week"}
+  ]
+}

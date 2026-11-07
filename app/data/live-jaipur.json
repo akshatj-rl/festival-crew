@@ -1,0 +1,8 @@
+{
+  "stops": [
+    {"time": "15:30", "name": "Jantar Mantar", "leg": "e-rickshaw, 10 min, ₹60"},
+    {"time": "16:30", "name": "City Palace", "leg": "e-rickshaw, 8 min, ₹60"},
+    {"time": "17:30", "name": "Johari Bazaar (gifts)", "leg": "e-rickshaw, 6 min, ₹40"},
+    {"time": "19:00", "name": "Sangeet", "leg": "10 min walk from the hotel"}
+  ]
+}

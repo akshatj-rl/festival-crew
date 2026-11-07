@@ -1,0 +1,7 @@
+{
+  "stops": [
+    {"time": "14:40", "name": "Musée d'Orsay", "leg": "Walk it — 25 min via the Seine, no fare"},
+    {"time": "17:00", "name": "Le Marais", "leg": "Metro 2 stops, the pass covers it"},
+    {"time": "19:30", "name": "Trocadéro (Eiffel at dusk)", "leg": "Metro 3 stops, the pass covers it"}
+  ]
+}

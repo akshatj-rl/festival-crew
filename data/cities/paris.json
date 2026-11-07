@@ -1,0 +1,25 @@
+{
+  "city": "Paris",
+  "country": "France",
+  "currency": "EUR",
+  "prices_as_of": "2025-10 (verify before a real trip)",
+  "transit": {
+    "single": 2.5,
+    "day_pass": 8.65,
+    "pass_note": "t+ day pass, unlimited metro/bus within Paris (zone 1)"
+  },
+  "free_day_rules": [
+    "French national museums (Louvre, Orsay, ...): free first Sunday of the month, 9:00-14:00",
+    "Under-26 EU residents: free every day at national museums"
+  ],
+  "places": [
+    {"name": "Louvre", "lat": 48.8606, "lng": 2.3376, "cost": 22, "hours": "9:00-18:00, closed Mon", "tags": ["museum"], "free_rule": "first Sunday of the month, 9:00-14:00"},
+    {"name": "Musee d'Orsay", "lat": 48.8599, "lng": 2.3265, "cost": 16, "hours": "9:30-18:00, closed Mon", "tags": ["museum"], "free_rule": "first Sunday of the month, 9:00-14:00"},
+    {"name": "Eiffel Tower (summit)", "lat": 48.8584, "lng": 2.2945, "cost": 26.6, "hours": "9:30-23:45", "tags": ["icon"]},
+    {"name": "Sacre-Coeur (steps view)", "lat": 48.8867, "lng": 2.3431, "cost": 0, "hours": "7:30-22:30", "tags": ["view", "free"]},
+    {"name": "Musee de l'Orangerie", "lat": 48.8637, "lng": 2.3237, "cost": 12.5, "hours": "9:00-18:00, closed Mon", "tags": ["museum"]},
+    {"name": "Seine cruise (Bateaux Mouches)", "lat": 48.8606, "lng": 2.3268, "cost": 15, "hours": "10:00-21:00", "tags": ["activity"]},
+    {"name": "Le Marais walk", "lat": 48.8583, "lng": 2.3626, "cost": 0, "hours": "anytime", "tags": ["walk", "free", "food"]},
+    {"name": "Trocadero (Eiffel view)", "lat": 48.8623, "lng": 2.2823, "cost": 0, "hours": "anytime", "tags": ["view", "free"]}
+  ]
+}

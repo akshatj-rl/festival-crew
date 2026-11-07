@@ -1,0 +1,24 @@
+{
+  "city": "Delhi",
+  "country": "India",
+  "currency": "INR",
+  "symbol": "₹",
+  "prices_as_of": "2026-11 (verify before a real trip)",
+  "transit": {
+    "single": 30,
+    "day_pass": null,
+    "pass_note": "No metro day pass. Metro rides ₹20–60; autos for the last mile (₹100–150 in meter)"
+  },
+  "free_day_rules": [
+    "Akshardham: free entry, closed Mondays (evening show 16:30–19:00)",
+    "Taj Mahal is in Agra and is CLOSED every Monday — the whole point of placing it right"
+  ],
+  "places": [
+    {"name": "India Gate (Diwali lights)", "lat": 28.6129, "lng": 77.2295, "cost": 0, "hours": "anytime; lights till 21:30", "tags": ["icon", "free", "diwali"]},
+    {"name": "Humayun's Tomb", "lat": 28.5933, "lng": 77.2507, "cost": 40, "hours": "06:00–18:00, closed Mon", "tags": ["unesco", "museum"]},
+    {"name": "Akshardham (free + evening show)", "lat": 28.6127, "lng": 77.2773, "cost": 0, "hours": "09:30–21:00, closed Mon", "tags": ["icon", "free"]},
+    {"name": "Qutub Minar", "lat": 28.5245, "lng": 77.1855, "cost": 50, "hours": "07:00–17:00, closed Wed", "tags": ["unesco"]},
+    {"name": "Chandni Chowk street food walk", "lat": 28.6570, "lng": 77.2300, "cost": 150, "hours": "anytime", "tags": ["food", "free-walk"]},
+    {"name": "Lotus Temple", "lat": 28.5535, "lng": 77.2588, "cost": 0, "hours": "06:00–21:00", "tags": ["icon", "free"]}
+  ]
+}
